@@ -1,0 +1,36 @@
+# --- Dataset & trained models: NOT tracked in git ---
+# See README "Dataset" section for download instructions.
+data/
+raw-img/
+*.h5
+*.keras
+*.pkl
+*.pth
+*.onnx
+checkpoints/
+training_log.txt
+
+# --- Media ---
+*.mp4
+*.mov
+*.avi
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+
+# --- IDE ---
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# --- Environment ---
+.env
+
+# --- OS ---
+.DS_Store
+Thumbs.db
